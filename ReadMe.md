@@ -1,92 +1,57 @@
-# Typing Playground
+Getting Started with Create React App
+This project was bootstrapped with Create React App.
 
-## Features:
-<ul>
-    <li>implementing a multi-mode typing test website with the ability to save results for better analysis</li>
-    <li>used firebase to login/signup and also used a database to save results</li>
-    <li>used various react hooks and context API to implement major functionalities like themes and test modes</li>
-    <li>Tools & Technologies - React, Material UI, Firebase, Styled Components</li>
-</ul>
+Available Scripts
+In the project directory, you can run:
 
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-### step 1 - dependencies used :
-<ol>
-    <li>firebase</li>
-    <li>random-words</li>
-    <li>react-chartjs-2</li>
-    <li>toastify</li>
-    <li>styled-components</li>
-    <li>Material-UI</li>
-    <li>Material Icons</li>
-    <li>react-select</li>
-    <li>react-toastify</li>
-    <li>google-react-button</li>
-    <li>react-router-dom</li>
-    <li>react-firebase-hooks</li>
-</ol>
+The page will reload when you make changes.
+You may also see any lint errors in the console.
 
-### step 2 - creating typing box component
-<ol>
-    <li>generating random words and displaying them</li>
-    <li>creating a hidden input box which is focussed by default</li>
-</ol>
+npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
-### step-3 - correct or incorrect words
-<ol>
-    <li>referencing each and every word</li>
-    <li>implementing blinking cursor</li>
-    <li>comparing characters to check correct or incorrect</li>
-</ol>
+npm run build
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### step-4 - correct and incorrect throught paragraph
-<ol>
-    <li>replicate the process of correct and incorrect throughout the paragraph</li>
-</ol>
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
 
-### step-5 - backspace and extra characters
-<ol>
-    <li>handling the extra characters typed</li>
-    <li>implementing backspace functionality</li>
-</ol>
+See the section about deployment for more information.
 
-### step-6 - implementing timer functionality and useOf useContext
+npm run eject
+Note: this is a one-way operation. Once you eject, you can't go back!
 
-### step-7 - implementing themes 
+If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-### step-8 - Generating Test Results and Graph
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### step-9 - header component
-<ol>
-    <li>Logo</li>
-    <li>Account
-        <ol>
-            <li>Login Form</li>
-            <li>Signup Form</li>
-        </ol>
-    </li>
-</ol>
+You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### step-10 - Firebase Setup
-<ol>
-    <li>create new project</li>
-    <li>select web application</li>
-    <li>copy config and paste inside firebaseConfig</li>
-    <li>Go to authentication - enable email and google authentications</li>
-    <li>create firestore database in test mode(test mode is preferred for build mode)</li>
-</ol>
+Learn More
+You can learn more in the Create React App documentation.
 
-### step-11 - Firebase authentication
-<ol>
-    <li>createUserWithEmailAndPassword</li>
-    <li>signInWithEmailAndPassword</li>
-    <li>signInWithGoogle</li>
-    <li>signOut</li>
-</ol>
+To learn React, check out the React documentation.
 
-### step-12 - save test results to firestore
+Code Splitting
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### step-13 - routing - homepage & userpage
+Analyzing the Bundle Size
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### step-14 - fetching all the test-results of user from firestore and representing them in the form of table and graph if the user is logged in.
+Making a Progressive Web App
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-# run commond line -> npm run dev
+Advanced Configuration
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+Deployment
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+npm run build fails to minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
